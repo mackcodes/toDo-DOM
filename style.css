@@ -1,0 +1,32 @@
+*{
+    background-color: bisque;
+}
+
+
+.addTask{
+    background: white;
+}
+
+.task-column{
+    background: white;
+}
+
+.taskDiv {
+    background-color: rgb(208, 237, 237);
+    height: 50px;
+    width: 80%;
+}
+
+.context {
+    display: flex;
+    justify-content: flex-start;
+    border-color: black;
+    margin: 5px;
+
+}
+
+.delBtn {
+    background: white;
+    color: blueviolet;
+    margin-left: 5px;
+}

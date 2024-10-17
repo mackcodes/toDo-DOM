@@ -8,7 +8,7 @@ btn.addEventListener("click", function(){        //added event listener to the b
     const newDivEl = document.createElement("div");  // added a new div in the body
     newDivEl.setAttribute("id", currentIdx);
    
-    newDivEl.innerHTML = "<div>" + value + "</div><button onclick='deleteTodo(" + currentIdx + ")'>Delete</button>";
+    newDivEl.innerHTML = "<div class='context'><div class='taskDiv'>" + value + "</div><button class='delBtn' onclick='deleteTodo(" + currentIdx + ")'>Delete</button></div>";
 
     document.querySelector("body").appendChild(newDivEl);     //added a new child in the div 
     currentIdx = currentIdx + 1;
